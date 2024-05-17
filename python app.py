@@ -5,7 +5,7 @@ def get_user_choice():
     while user_choice not in ["rock", "paper", "scissors"]:
         print("Invalid input. Please enter rock, paper, or scissors.")
         user_choice = input("Enter your choice (rock, paper, scissors): ").lower()
-    return user_choice^
+    return user_choice
 
 def get_computer_choice():
     choices = ["rock", "paper", "scissors"]
